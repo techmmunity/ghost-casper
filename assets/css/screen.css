@@ -87,11 +87,12 @@ production stylesheet in assets/built/screen.css
 
 /* Centered content container blocks */
 .center {
-	margin: 0 auto;
-	max-width: 1200px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
 }
 
 
